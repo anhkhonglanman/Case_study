@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+    height: 50px;
+}
+
+.row .left {
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+.row .right {
+    float: right;
+    width: 80%;
+    height: auto;
+}
+
+.left label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.right input[type = text], [type = date] {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+span {
+    padding-left: 12px;
+}
+
+input[type = submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px;
+}
+
+tr, th, td {
+    border: 1px solid rgb(92, 89, 89);
+    text-align: center;
+    padding: 12px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(224, 222, 217);
+}
